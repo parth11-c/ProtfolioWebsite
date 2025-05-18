@@ -572,11 +572,11 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  background: white;
+  /* background: white; */
   padding: 2rem;
   text-align: center;
-  border-radius: 30px 30px 0 0;
-  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.05);
+  /* border-radius: 30px 30px 0 0; */
+  /* box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.05); */
   margin-top: 4rem;
 }
 
@@ -651,6 +651,10 @@ section {
   box-sizing: border-box;
   margin: 0 auto;
   overflow: hidden;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+  padding: 3rem 2rem;
 }
 
 #contact{
@@ -1566,7 +1570,9 @@ footer .nav-links a:hover {
   .project-img {
     height: 160px;
   }
-
+ .centre{
+  margin-right: 30px;
+ }
   .project-title {
     font-size: 1.3rem;
     margin: 1rem 0;
@@ -1790,6 +1796,78 @@ article h3 {
     min-width: 200px;
   }
 }
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .about-containers,
+  .section-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .details-container {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin: 0.5rem 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .article-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  article {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin: 0.5rem 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .about-containers,
+  .section-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .details-container {
+    width: 100% !important;
+    max-width: 95vw !important;
+    margin: 0.3rem 0 !important;
+    box-sizing: border-box !important;
+    padding: 1rem !important;
+  }
+
+  .article-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  article {
+    width: 100% !important;
+    max-width: 95vw !important;
+    margin: 0.3rem 0 !important;
+    box-sizing: border-box !important;
+    padding: 1rem !important;
+  }
+}
   </style>
   <body>
    
@@ -1888,11 +1966,13 @@ article h3 {
                     <p>B.Tech  <br />Computer Science <br>...</p>
                   </div>
                 </div>
+               <div class="centre">
                 <div class="text-container">
                   <p>
                     Aspiring Full Stack Developer with a passion for creating innovative and scalable software solutions. Equipped with strong expertise in React.Native, React Native, Java,  backed by a rigorous academic background with a CGPA of 8.3 . Successfully completed a full-stack internship of 1 Month at Softrronix Software Services, where I developed and deployed efficient applications using Spring Boot and React Native. Proficient in building cross-platform mobile applications with React Native, ensuring seamless user experiences across iOS and Android platforms. Known for my problem-solving abilities, attention to detail, and commitment to writing clean, maintainable code. Eager to leverage my technical skills and creative mindset to drive impactful projects and advance my career in software development.
                   </p>
                 </div>
+               </div>
               </div>
             </div>
 
@@ -1905,190 +1985,200 @@ article h3 {
      
               <p class="section__text__p1">Explore My</p>
               <h1 class="title">Experience</h1>
-              <div class="experience-details-container">
-                <div class="about-containers">
-                  <div class="details-container">
-                    <h2 class="experience-sub-title">Full Stack Development</h2>
-                    <div class="article-container">
-                      <article>
-                        <img
-                          src="html.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>HTML</h3>
-                         </div>
-                      </article>
-                      <article>
-                        <img
-                          src="social.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>CSS</h3>
-                         </div>
-                      </article>
-                      <article>
-                        <img
-                          src="js.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>JavaScript</h3>
-                         </div>
-                      </article>
+<div class="centre">
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Full Stack Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="html.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>HTML</h3>
+             </div>
+          </article>
+          <article>
+            <img
+              src="social.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>CSS</h3>
+             </div>
+          </article>
+          <article>
+            <img
+              src="js.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>JavaScript</h3>
+             </div>
+          </article>
 
-                      <article>
-                        <img
-                          src="database-storage.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>MongoDB</h3>
-                         </div>
-                      </article>
-                    </div>
-                  </div>
-                  <div class="details-container">
-                    <h2 class="experience-sub-title">Full Stack Development</h2>
-                    <div class="article-container">
-                      <article>
-                        <img
-                          src="database.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>MySQL</h3>
-                         </div>
-                      </article>
-                      <article>
-                        <img
-                          src="power.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>Spring Boot</h3>
-                         </div>
-                      </article>
-                      <article>
-                        <img
-                          src="physics.png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>React Native</h3>
-                         </div>
-                      </article>
-                      <article>
-                        <img
-                          src="github (1).png"
-                          alt="Experience icon"
-                          class="icon"
-                        />
-                        <div>
-                          <h3>Git & Github</h3>
-                         </div>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <article>
+            <img
+              src="database-storage.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>MongoDB</h3>
+             </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Full Stack Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+              src="database.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>MySQL</h3>
+             </div>
+          </article>
+          <article>
+            <img
+              src="power.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Spring Boot</h3>
+             </div>
+          </article>
+          <article>
+            <img
+              src="physics.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>React Native</h3>
+             </div>
+          </article>
+          <article>
+            <img
+              src="github (1).png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Git & Github</h3>
+             </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
        
       </div>
 
  <br>
-
-          <div id="projects">
-               <div>
-                 
-                <p class="section__text__p1">Browse My Recent</p>
-               <h1 class="title">Projects</h1>
-               <div class="experience-details-container">
-                 <div class="about-containers">
-                   <div class="details-container color-container">
-                     <div class="article-container">
-                       <img
-                         src="VirtualBB.png"
-                         alt="Project 1"
-                         class="project-img"
-                       />
-                     </div>
-                     <h2 class="experience-sub-title project-title">Virtual Blood Bank</h2>
-                     <div class="btn-container">
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Github
-                       </button>
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Live Demo
-                       </button>
-                     </div>
-                   </div>
-                   <div class="details-container color-container">
-                     <div class="article-container">
-                       <img
-                         src="project 2.jpg"
-                         alt="Project 2"
-                         class="project-img"
-                       />
-                     </div>
-                     <h2 class="experience-sub-title project-title">Still Working <br>...</h2>
-                     <div class="btn-container">
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Github
-                       </button>
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Live Demo
-                       </button>
-                     </div>
-                   </div>
-                   <div class="details-container color-container">
-                     <div class="article-container">
-                       <img
-                         src=" "
-                         alt="Project 3"
-                         class="project-img"
-                       />
-                     </div>
-                     <h2 class="experience-sub-title project-title">Still Working <br>...</h2>
-                     <div class="btn-container">
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Github
-                       </button>
-                       <button
-                         class="btn btn-color-2 project-btn"
-                         onclick="location.href='https://github.com/'"
-                       >
-                         Live Demo
-                       </button>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-            </div>
-
+<div class="centsre">
+  
+  <div id="projects" style="margin-right: 20px;">
+    <div>
+      
+     <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container" style="margin-right: 20px;">
+      <div class="about-containers" style="margin-right: 30px;">
+<div class="centre">
+  <div class="details-container color-container" style="margin-right: 30px;">
+    <div class="article-container" style="margin-right: 30px;">
+      <img
+        src="VirtualBB.png"
+        alt="Project 1"
+        class="project-img"
+      />
+    </div>
+    <h2 class="experience-sub-title project-title">Virtual Blood Bank</h2>
+    <div class="btn-container">
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Github
+      </button>
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Live Demo
+      </button>
+    </div>
+  </div>
+</div>
+<div class="centre">
+  <div class="details-container color-container">
+    <div class="article-container">
+      <img
+        src="project 2.jpg"
+        alt="Project 2"
+        class="project-img"
+      />
+    </div>
+    <h2 class="experience-sub-title project-title">Still Working <br>...</h2>
+    <div class="btn-container">
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Github
+      </button>
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Live Demo
+      </button>
+    </div>
+  </div>
+</div>
+<div class="centre">
+  <div class="details-container color-container">
+    <div class="article-container">
+      <img
+        src=" "
+        alt="Project 3"
+        class="project-img"
+      />
+    </div>
+    <h2 class="experience-sub-title project-title">Still Working <br>...</h2>
+    <div class="btn-container">
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Github
+      </button>
+      <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+      >
+        Live Demo
+      </button>
+    </div>
+  </div>
+</div>
       </div>
+    </div>
+ </div>
+
+</div>
+</div>
 
 
 
@@ -2117,16 +2207,7 @@ article h3 {
             </div>
           </section>
           <footer>
-            <nav>
-              <div class="nav-links-container">
-                <ul class="nav-links">
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-            </nav>
+
             <p style=" padding: auto;">Copyright &#169; 2023 Parth Bhende. All Rights Reserved.
               <br>
               ...

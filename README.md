@@ -41,9 +41,10 @@ ProtfolioWebsite/
 git clone https://github.com/parth11-c/ProtfolioWebsite.git
 cd ProtfolioWebsite
 
+---
 
 🌐 Live Demo
-Click here to view the website <!--https://parth11-c.github.io/ProtfolioWebsite/-->
+Click here to view the website https://parth11-c.github.io/ProtfolioWebsite/
 
 🤝 Contributing
 Contributions are welcome! If you have suggestions for improvement, feel free to fork the repo and submit a pull request.

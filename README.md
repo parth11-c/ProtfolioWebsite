@@ -21,3 +21,29 @@ A personal portfolio website to showcase projects, skills, and achievements. Des
 ---
 
 ## 📂 Project Structure
+ProtfolioWebsite/
+│
+├── index.html
+├── /assets # Images, icons
+├── /css # Stylesheets
+├── /js # JavaScript files
+└── README.md
+
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/parth11-c/ProtfolioWebsite.git
+cd ProtfolioWebsite
+
+
+🌐 Live Demo
+Click here to view the website <!--https://parth11-c.github.io/ProtfolioWebsite/-->
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for improvement, feel free to fork the repo and submit a pull request.
